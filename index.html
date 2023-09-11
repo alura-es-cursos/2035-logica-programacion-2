@@ -21,9 +21,9 @@
                     <h1></h1>
                     <p class="texto__parrafo"></p>
                 </div>
-                <input type="number" min="1" max="10" class="container__input">
+                <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
                 <div class="chute container__botones">
-                    <button class="container__boton">Intentar</button>
+                    <button onclick="verificarIntento();" class="container__boton">Intentar</button>
                     <button class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
                 </div>
             </div>
@@ -33,8 +33,8 @@
 
 
 
+    <script src="app.js"></script>
 
-    <script src="app.js" defer></script>
 </body>
 
 </html>
